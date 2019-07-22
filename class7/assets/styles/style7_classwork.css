@@ -1,0 +1,358 @@
+.top-header {
+
+    background: #091a48;
+
+}
+
+.top-header .logo {
+
+    float: left;
+    padding: 0 100px 0 200px;
+
+}
+
+.top-header .search-area {
+
+    float: left;
+    padding: 48px 38px 0 0;
+
+}
+
+.top-header .social-icons {
+
+    float: left;
+    padding:57px 0 0 0;
+
+}
+
+.top-header .social-icons ul {
+    margin:0;
+}
+
+.top-header .social-icons ul li {
+
+    float:left;
+    list-style-type: none;
+    padding: 0 3px 0 2px;
+
+}
+
+.navigation {
+    background:#f9bf00;
+}
+
+.navigation ul {
+
+    margin:0 0 0 213px;
+    padding: 0;
+    list-style-type: none;
+
+}
+
+.navigation ul li {
+    float:left;
+}
+
+.navigation ul li a {
+    
+    display: block;
+    margin: 15px 5px 15px 0;
+    padding: 9px 13px;
+    color:#826400;
+    font-size:14px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+    
+}
+
+.navigation ul li a:hover {
+    color:#091a48;
+    background: #f5f4f8;
+}
+
+.navigation ul li:last-child {
+    background: #dba800;
+    
+}
+
+.navigation ul li:last-child a {
+    font-size:22px;
+    color:#fff;
+    font-weight: bold;
+    margin: 0;
+    padding: 20px 35px;
+    border-radius: 0;
+}
+
+.navigation ul li:last-child a:hover {
+    background: #091a48;
+}
+
+.slider {
+    
+    height: 500px;
+    
+    /*background-image: url('../images/slider.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;*/
+    
+    background: url('../images/slider.jpg') no-repeat top center;
+    background-size: 100% 500px;
+    
+}
+
+.slider .slider-text {
+    padding:118px 0 0 210px;
+}
+
+.slider .slider-text h1 {
+    font-size:60px;
+    color:#fff;
+    margin: 0 0 20px;
+}
+
+.slider .slider-text ul {
+    margin:0;
+    padding:0;
+    list-style-type: none;
+}
+
+.slider .slider-text ul li {
+    font-size: 24px;
+    color: #000;
+    background: url(../images/arrow-white.png) no-repeat 10px 11px #f9bf00;
+    width: 552px;
+    margin: 0 0 10px;
+    padding: 5px 10px 5px 30px;
+}
+
+.slider .slider-text ul li:nth-child(1) {
+
+    background-image: url(../images/arrow-blue.png);
+
+}
+
+.slider .slider-text ul li:nth-child(2) {
+    background-color: #282c62;
+    color:#fff;
+    width: 500px;
+}
+
+.slider .slider-text ul li:nth-child(3) {
+    background-color: #091a48;
+    color:#fff;
+    width: 450px;
+}
+
+.homeboxes {
+    background:#FABDBD;
+    border-bottom:1px solid #c4c4c4;
+    margin-bottom:60px;
+}
+
+.homeboxes .ask-imam-bar {
+    width:970px;
+    margin:0 auto 60px;
+    border-radius: 0 0 5px 5px;
+}
+
+.homeboxes .ask-imam-bar .heading {
+
+    background: #091a48;
+    width:140px;
+    padding: 20px 15px 15px;
+    text-align:center;
+    float:left;
+
+}
+
+.homeboxes .ask-imam-bar .heading h2 {
+    color:#fff;
+    font-size:13px;
+    margin:0;
+}
+
+.homeboxes .ask-imam-bar .heading h2 strong {
+    font-size:50px;
+    display:block;
+}
+
+.homeboxes .ask-imam-bar .detail {
+    background: #f9bf00;
+    width: 720px;
+    padding: 25px 50px 30px 30px;
+    float:left;
+}
+
+.homeboxes .ask-imam-bar .detail p {
+    width:500px;
+    margin: 0 45px 0 0;
+    padding:0;
+    float:left;
+}
+
+.homeboxes .ask-imam-bar .detail a {
+    background:#091a48;
+    font-size:17px;
+    color:#fff;
+    font-weight:bold;
+    padding:15px 40px;
+    border-radius:5px;
+    text-decoration: none;
+    text-transform:uppercase;
+    display: block;
+    float:left;
+    margin: 4px 0 0;
+}
+
+.homeboxes .ask-imam-bar .detail a:hover {
+    background:#000;
+}
+
+.options {
+    width:1170px;
+    margin: 0 auto;
+}
+
+.options .option {
+    width:305px;
+    float:left;
+   
+    background: #f3f3f3;
+    padding: 40px 40px 40px 25px;
+   
+}
+
+.options .option:nth-child(3n+3) {
+    margin-right:0;
+}
+
+
+/* ----------------- donation styling starts here-------- */
+.donations {
+    background-color: #f3f3f3;
+    margin: 61px 0 88px ;
+    /* align:top center; */
+}
+.donations .donation-container{
+    width:1175px;
+    margin:0 auto;
+   
+}
+.donations .donation-container h2 {
+    color:#091a48;
+    font-size: 35px;
+    text-transform: uppercase;
+    margin:0 auto;
+    text-align: center;
+   
+}
+.donations .donation-container h2::before {
+    content:url(../images/wave.png);
+}
+.donations .donation-container h2::after {
+    content:url(../images/wave.png);
+
+
+}
+.donations .donation-container .bullets{
+   /* margin:0 auto; */
+   text-align:center;
+}
+.donations .donation-container .bullets li {
+  
+    display: inline-block;
+    /* float: left; */
+}
+
+.donations .donation-container .bullets li a{
+    /* display: block;
+    float: left; */
+    width: 13.4px;
+    height: 13.3px;
+    border-radius: 50%;
+    display: inline-block;
+    background: gray;
+
+}
+.donations .donation-container .bullets .active a{
+    width: 13.4px;
+    height: 13.3px;
+    border-radius: 50%;
+    display: inline-block;
+    background: #8A1212;
+}
+
+
+
+.donations .donation-container .donate-area{
+    float: left;
+    display: inline-block;
+    width: 570px;
+    height:318px;
+    /* background-color: #FABDBD; */
+    margin:0 14px 0 0;
+
+}
+.donations .donation-container .donate-area tr:nth-of-type(2) td{
+    height: 44px;
+}
+.donations .donation-container .donate-area tr:last-of-type td{
+    height: 48px;
+}
+.donations .donation-container .donate-area h4{
+font-size: 35px;
+text-transform: uppercase;
+color:#091a48;
+margin:0 auto 0px auto ;
+text-align: center;
+}
+.donations .donation-container .donate-area p{
+    margin:30px 0 30px 0 ;
+    font-size: 13px;
+    width:570px;
+    height:55px;
+    /* border: 1px solid #000; */
+}
+/* .donations .donation-container .donate-area table{
+    border: 1px solid #000;
+} */
+.donations .donation-container .donate-area table tr{
+    border: 1px solid #000;
+}
+.donations .donation-container .donate-area table  tr td{
+    border: 1px solid #000;
+    font-size: 16px;
+    text-align: center;
+    height: 75px;
+    width: 115px;
+    color: #097246
+}
+.donations .donation-container .donate-area table tr td strong{
+    display: block;
+    text-align: center;
+    font-size: 25px;
+}
+.donations .donation-container .donate-area table tr td colspan{
+    /* height: 40px; */
+}
+.donations .donation-container .donate-area table tr td a{
+    
+    padding: 5px 20px;
+    background-color: #091a48;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    height: 50px;
+
+
+}
+.donations .donation-container .donate-img{
+    border: 1px solid #000;
+    margin:0 14px 0 0;
+    float: left;
+    width: 573px;
+    height:319px;
+    
+}
